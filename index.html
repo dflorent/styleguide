@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ProjectName &ndash; Styleguide</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/dflorent/0c96cdc505da82cac1f0ba979c020167/raw/cea254e0f101d5fcc1e99e03cfc024292443a004/styleguide.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.css">
+
+        <!-- Replace below stylesheet with your own stylesheet -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body class="sg-body">
+        <div class="sg-frame">
+            <div class="sg-frame-l">
+                <h1 class="sg-h">
+                    <a href="">ProjectName</a>
+                </h1>
+                <ul class="sg-toc"><!-- automatic ToC --></ul>
+            </div>
+            <div class="sg-frame-r">
+                <!-- ########## =Colors ########## -->
+                <h2 class="sg-h" data-toc="colors">Colors</h2>
+                <hr class="sg-hr">
+                <ul class="sg-colors">
+                    <li>
+                        <div style="background-color: #AAA;"></div>
+                        <span>$gray: #AAA</span>
+                    </li>
+                    <li>
+                        <div style="background-color: #DDD;"></div>
+                        <span>$silver: #DDD</span>
+                    </li>
+                </ul>
+                <ul class="sg-colors">
+                    <li>
+                        <div style="background-color: #ff4136;"></div>
+                        <span>$red: #FF4136</span>
+                    </li>
+                    <li>
+                        <div style="background-color: #0074D9;"></div>
+                        <span>$blue: #0074D9</span>
+                    </li>
+                    <li>
+                        <div style="background-color: #FFDC00;"></div>
+                        <span>$yellow: #FFDC00</span>
+                    </li>
+                </ul>
+
+                <!-- ########## =Fonts ########## -->
+                <h2 class="sg-h" data-toc="fonts">Fonts</h2>
+                <hr class="sg-hr">
+                <h3 class="sg-h">Primary font: <span style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">'Helvetica Neue', Helvetica, Arial, sans-serif</span></h3>
+                <div class="sg-font">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+                abcdefghijklmnopqrstuvwxyz<br>
+                0123456789</div>
+                <pre><code class="language-css">font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;</code></pre>
+
+                <!-- ########## =Headings ########## -->
+                <h2 class="sg-h" data-toc="headings">Headings</h2>
+                <hr class="sg-hr">
+                <h1>h1. This is an heading example</h1>
+                <hr class="sg-hr">
+                <h2>h2. This is an heading example</h2>
+                <hr class="sg-hr">
+                <h3>h3. This is an heading example</h3>
+                <hr class="sg-hr">
+                <h4>h4. This is an heading example</h4>
+                <hr class="sg-hr">
+                <h5>h5. This is an heading example</h5>
+                <hr class="sg-hr">
+                <h6>h6. This is an heading example</h6>
+                <hr class="sg-hr">
+
+                <!-- ########## =Paragraphs ########## -->
+                <h2 class="sg-h" data-toc="paragraphs">Paragraphs</h2>
+                <hr class="sg-hr">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at commodo nunc. Morbi pulvinar condimentum augue quis tincidunt. Aliquam bibendum dapibus sapien. Donec sed rutrum lorem, nec elementum dui. Donec mollis lacus nec consectetur dignissim. Pellentesque malesuada tincidunt sollicitudin. Sed varius sapien quis sapien accumsan rhoncus. Proin et nunc sit amet lorem porttitor tincidunt vel eu ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis at accumsan dolor, non dictum sapien. Suspendisse rhoncus dolor non nisl ultrices fringilla.</p>
+                <p>Nullam sit amet dolor tincidunt, dictum turpis id, tristique lorem. Curabitur suscipit libero sit amet ipsum euismod, vel rhoncus eros aliquam. Donec justo risus, vehicula eleifend rhoncus non, tincidunt at sem. Duis commodo molestie sodales. In lacinia est eget ex aliquet egestas. Donec fringilla tincidunt leo auctor malesuada. Maecenas cursus ac mauris ut tempor. Integer dictum turpis augue, vitae semper libero sagittis non. Nunc enim urna, laoreet quis erat a, suscipit volutpat libero. Pellentesque sit amet gravida ipsum, vel ornare orci. Phasellus lacinia ac ligula at viverra. Aliquam ac ligula a nisi dictum sodales. Nullam convallis urna a turpis efficitur faucibus. In in risus sed ante ultrices euismod vel a augue. Ut tellus mauris, cursus nec lacinia nec, euismod eu ex.</p>
+
+                <!-- ########## =Inline elements ########## -->
+                <h2 class="sg-h" data-toc="inline-elements">Inline elements</h2>
+                <hr class="sg-hr">
+                <p><a href="#">This is a text link</a></p>
+                <p><strong>This line rendered as bold text.</strong></p>
+                <p><em>This line rendered as italicized text.</em></p>
+
+                <!-- ########## =Unordered list ########## -->
+                <h2 class="sg-h" data-toc="unordered-list">Unordered list</h2>
+                <hr class="sg-hr">
+                <ul>
+                    <li>This is a list item in an unordered list</li>
+                    <li>An unordered list is a list in which the sequence of items is not important. Sometimes, an unordered list is a bulleted list. And this is a long list item in an unordered list that can wrap onto a new line. </li>
+                    <li>
+                        Lists can be nested inside of each other
+                        <ul>
+                            <li>This is a nested list item</li>
+                            <li>This is another nested list item in an unordered list</li>
+                        </ul>
+                    </li>
+                    <li>This is the last list item</li>
+                </ul>
+
+                <!-- ########## =Ordered list ########## -->
+                <h2 class="sg-h" data-toc="ordered-list">Ordered list</h2>
+                <hr class="sg-hr">
+                <ol>
+                    <li>This is a list item in an ordered list</li>
+                    <li>An ordered list is a list in which the sequence of items is important. An ordered list does not necessarily contain sequence characters.</li>
+                    <li>
+                        Lists can be nested inside of each other
+                        <ol>
+                            <li>This is a nested list item</li>
+                            <li>This is another nested list item in an ordered list</li>
+                        </ol>
+                    </li>
+                    <li>This is the last list item</li>
+                </ol>
+
+                <!-- ########## =Buttons ########## -->
+                <h2 class="sg-h" data-toc="buttons">Buttons</h2>
+                <hr class="sg-hr">
+                <p class="sg-p">Not implemented yet!</p>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.js"></script>
+        <script src="https://cdn.rawgit.com/dflorent/0c96cdc505da82cac1f0ba979c020167/raw/6c0f9e91e9fbe79aa43415f903a2e1751f61f027/styleguide.js"></script>
+    </body>
+</html>
