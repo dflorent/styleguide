@@ -5,7 +5,7 @@ A simple starting point for style guides.
 
 [View demo](https://dflorent.github.io/styleguide)
 
-![screenshot](https://raw.githubusercontent.com/dflorent/styleguide/master/screenshots.png)
+![screenshot](https://raw.githubusercontent.com/dflorent/styleguide/master/screenshot.png)
 
 Usage
 -----
