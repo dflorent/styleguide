@@ -4,7 +4,7 @@
         <title>ProjectName &ndash; Styleguide</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://goo.gl/IirHfH">
+        <style>@import "https://fonts.googleapis.com/css?family=Noto+Sans";.sg-body{margin:0;background-color:white}.sg-img{max-width:100%;height:auto}.sg-hr{height:0;border:0;border-top:1px solid #ddd;margin:1em 0}.sg-h{font-family:'Noto Sans', sans-serif;color:#333;margin:1em 0 0 0;line-height:1.45;font-weight:normal}.sg-h:first-child{margin-top:0}h1.sg-h{font-size:32px}h2.sg-h{font-size:24px}h3.sg-h{font-size:18px}.sg-h a{color:#999;text-decoration:none}.sg-h a:hover{color:#999;text-decoration:underline}.sg-p{font-size:16px;font-family:'Noto Sans', sans-serif;line-height:1.7;color:#333;margin:16px 0}.sg-font{margin:16px 0}.sg-frame{position:relative}.sg-frame-l{box-sizing:border-box;position:fixed;top:0;left:0;height:100%;width:22%;padding:22px 32px;overflow-x:hidden;overflow-y:auto}.sg-frame-r{box-sizing:border-box;margin-left:22%;border-left:1px solid #ddd;padding:32px}@media screen and (max-width: 1200px){.sg-toc{display:none}.sg-frame-l{position:static;width:100%}.sg-frame-r{border:0;margin-left:0}}.sg-toc{margin-top:20px}.sg-toc,.sg-toc ul{padding:0;list-style:none;color:#ddd;position:relative}.sg-toc ul{margin-left:16px}.sg-toc li a{display:block;color:#337ab7;font-family:'Noto Sans', sans-serif;font-size:16px;text-decoration:none;padding:10px;border-left:1px solid transparent}.sg-toc li a:hover{color:#23527c;border-left:1px solid #23527c}.sg-colors{overflow:hidden;padding:0;margin:0;list-style:none}.sg-colors > li{display:block;border:1px solid #ddd;min-width:200px;float:left;padding:5px;margin:16px 16px 0 0;font-family:'Noto Sans', sans-serif;font-size:14px}.sg-colors > li > div{height:100px}.sg-colors > li > span{display:block;text-transform:lowercase;padding:5px 0;color:#999}</style>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.css">
 
         <!-- Replace below stylesheet with your own stylesheet -->
@@ -125,6 +125,6 @@
         </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.js"></script>
-        <script src="https://goo.gl/ud8vDE"></script>
+        <script>var tocElements=document.querySelectorAll("[data-toc]");document.addEventListener("DOMContentLoaded",function(){for(var a=0;a<tocElements.length;++a){var b=document.createElement("ul"),c=document.createElement("li"),d=document.createElement("a");b.setAttribute("class","sg-toc"),d.innerHTML=tocElements[a].innerHTML,d.setAttribute("href","#"+tocElements[a].attributes[1].value),c.appendChild(d),document.querySelectorAll(".sg-toc")[0].appendChild(c),tocElements[a].id=tocElements[a].attributes[1].value}});</script>
     </body>
 </html>
